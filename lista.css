@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #076279;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: rgb(171, 243, 213);
+    text-decoration: underline;
+}
+
+.tarefa{
+    display: flex;
+    flex-direction: row wrap;
+    text-align: center;
+    width: 90%;
+    height: 120px;
+    font-size: 2rem;
+}
+
+.tarefa input{
+    padding-left: 2rem;
+    width:110%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: ;
+
+}
+
+.tarefa input::placeholder{
+    color: cadetblue;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+
+.tarefa button{
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    background: green;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+main{
+    padding-top: 2rem;
+    width: 90%
+
+}
+
+.item{
+    display: flex;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+  
+}
+
+
+.icone{
+    flex: 15%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-circle-check{
+    color: rgb(0, 122, 37);
+}
+
+.texto{
+    text-align: left;
+    flex: 55%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+
+.botao{
+    flex: 10%;
+}
+
+
+.item.clicado{
+    background: rgb(184, 247, 184);
+}
+
+.item.clicado .texto{
+    text-decoration: line-through;
+    color: gray;
+}
+
+button{
+    width: 100%;
+    height: 120px;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+button i{
+    padding-right: 5px;
+    text-align: center;
+    align-items: center;
+}
